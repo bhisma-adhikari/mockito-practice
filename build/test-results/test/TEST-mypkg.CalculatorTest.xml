@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="mypkg.CalculatorTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-10-24T20:32:52" hostname="C02G73F2MD6PMBP" time="0.02">
+  <properties/>
+  <testcase name="testAdd()" classname="mypkg.CalculatorTest" time="0.017"/>
+  <testcase name="testLog()" classname="mypkg.CalculatorTest" time="0.001"/>
+  <testcase name="testLog1()" classname="mypkg.CalculatorTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

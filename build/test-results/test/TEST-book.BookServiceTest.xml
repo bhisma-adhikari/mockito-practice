@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="book.BookServiceTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-10-24T20:32:52" hostname="C02G73F2MD6PMBP" time="0.032">
+  <properties/>
+  <testcase name="testSaveBook()" classname="book.BookServiceTest" time="0.009"/>
+  <testcase name="testUpdatePrice()" classname="book.BookServiceTest" time="0.001"/>
+  <testcase name="testUpdatePriceNull()" classname="book.BookServiceTest" time="0.013"/>
+  <testcase name="testSaveBookConditional()" classname="book.BookServiceTest" time="0.001"/>
+  <testcase name="testUpdatePriceSamePrice()" classname="book.BookServiceTest" time="0.001"/>
+  <testcase name="testUpdatePriceInOrder()" classname="book.BookServiceTest" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

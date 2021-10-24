@@ -10,15 +10,17 @@ repositories {
 }
 
 dependencies {
-
-
+    compileOnly group: 'org.projectlombok', name: 'lombok', version: '0.11.0'
     testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter-api', version: "${junitVersion}"
     testRuntimeOnly group: 'org.junit.jupiter', name: 'junit-jupiter-engine', version: "${junitVersion}"
-
     testImplementation group: 'org.mockito', name: 'mockito-core', version: "${mockitoVersion}"
     testImplementation group: 'org.mockito', name: 'mockito-junit-jupiter', version: "${mockitoVersion}"
 
-    compileOnly group: 'org.projectlombok', name: 'lombok', version: '0.11.0'
+    implementation(group: "org.powermock", name: "powermock-api-mockito2", version: "${powermockapimockitoVersion}")
+//    implementation group: 'org.powermock', name: 'powermock-module-junit5', version: "${powermockModuleJunit5Version}"
+
+    testImplementation group: 'org.powermock', name: 'powermock-core', version: '2.0.9'
+
 }
 
 test {
